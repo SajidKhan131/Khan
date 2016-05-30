@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Project" default="create" basedir=".">
+ 
+ <target name="delete">
+  <delete dir="bin"></delete>
+
+
+ </target>
+ 
+ <target name="create" depends="delete">
+ <mkdir dir="bin"></mkdir>
+ 
+ </target>
+ 
+ <target name="compile" depends="create">
+  <javac srcdir="C:/Users/sp13-bse-056/workspace/BuildP/src" destdir="C:/Users/sp13-bse-056/workspace/BuildP/bin"
+ 
+ </target>
+ 
+
+
+</project>
